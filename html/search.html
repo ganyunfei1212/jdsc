@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/search.css">
+     <!-- 样式重置 -->
+	<link rel="stylesheet" type="text/css" href="../css/rest.css"/>
+	<!-- 公共头部 -->
+    <link rel="stylesheet" type="text/css" href="../css/publicHeader.css"/>
+    <!-- 引入js数据 -->
+    <script src="../js/adressData.js" type="text/javascript" charset="utf-8"></script>
+    <!-- 底部 -->
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- 底部数据 -->
+    <script src="../js/footerData.js" defer></script>
+    <!-- icon图标 -->
+    <link rel="stylesheet" type="text/css" href="../icon/font-icon/iconfont.css"/>
+    <!-- hover效果 -->
+    <link rel="stylesheet" href="../css/hover.css">
+    <script src="../js/shangpingxuanran.js"></script>
+    <script src="../js/search.js" defer></script>
+</head>
+<body>
+    <div class="gouwuche_cebianlan_top">
+                <ul>
+                    <li>
+                        <b>我的关注</b>
+                    </li>
+                    <li>
+                        <i class="iconfont">&#xe707;</i>
+                    </li>
+                    <li>
+                        <i class="iconfont">&#xe706;</i>
+                    </li>
+                </ul>
+    </div>
+    <div class="container">
+        <header class="header">
+            <div class="header-adress">
+                <div class="index">
+                    <a href="../index.html"> <i class="iconfont">&#xe776;</i> 京东首页</a>
+                </div>
+                <adress class="iconfont">&#xe6fc;<span class="active-adress">四川</span>
+                    <div class="adress-container">
+                        <ul>
+                            <!-- <li><a href="">四川</a></li> -->
+                            <!-- 渲染地区部分 -->
+                        </ul>
+                        <!-- 其他地区 -->
+                        <div class="other-Areas">
+                            <span><!-- 地区专享版 --></span>
+                            <span><!-- <a href="">中國港澳</a> --></span>
+                        </div>
+                        <!-- Available Sites -->
+                        <div class="Available-Sites">
+                            <span>Available Sites</span>
+                            <ul>
+                                <!-- <li><span class="iconfont">&#xe74e;</span><a href="">Global Site</a></li>
+                                <li><span class="iconfont">&#xe6f8;</span><a href="">Situs Indonesia</a></li>
+                                <li><span class="iconfont">&#xe6f8;</span><a href="">Situs Indonesia</a></li>
+                                <li><span class="iconfont">&#xe6f8;</span><a href="">Situs Indonesia</a></li> -->
+                                <!-- 数据渲染部分 -->
+                            </ul>
+                        </div>
+                    </div>
+                </adress>
+                <ul class="header-right">
+                    <!-- 数据渲染部分 -->
+                </ul>
+            </div> 
+        </header>
+    </div>
+    <!-- //购物车logo部分 -->
+    <div class="gouwuche_logo">
+        <h2><a href=""><img src="../img/login/login_logo.png" alt=""></a></h2>
+        <b><a href="" id="shangpinglx">搜索商品</a></b>
+        <div class="search">
+            <input type="text" placeholder="自营">
+            <button>搜索</button>
+        </div>
+    </div>
+    <div class="gouwuche_cebianlan_bottom">
+            <ul>
+                        <li>
+                            <i class="iconfont">&#xe6ee;</i>
+                        </li>
+                        <li>
+                            <i class="iconfont">&#xe78b;</i>
+                        </li>
+                        <li>
+                            <i class="iconfont">&#xe724;</i>
+                        </li>
+            </ul>
+    </div>
+    <div class="search_shangping">
+          <dl>
+              <dd>综合<span class="iconfont">&#xe739;</span></dd>
+              <dd>销量<span class="iconfont">&#xe739;</span></dd>
+              <dd>评论数<span class="iconfont">&#xe739;</span></dd>
+              <dd>价格<span class="iconfont" id="shengxu">&#xe779;</span>
+                    <span class="iconfont" id="jiangxu">&#xe739;</span>
+            </dd>
+          </dl>
+        <ul>
+            <!-- <li>
+                <a href="">
+                    <img src="https:////m.360buyimg.com/mobilecms/s250x250_jfs/t1/91617/24/610/107245/5db16b7fE718af815/4adbf1bc6a4b57fb.jpg" alt="">
+                </a>
+                <span>￥2499.00</span>
+                <p>
+                    <a href="">
+                        <i>京东超市</i>  【美的饭煲好物精选-12月狂欢来袭！】秒杀价199元！199元！参加每满248减50元！仅限前800台！气动涡轮防溢！另有4L智能预约饭煲领券享优惠》
+                    </a>
+                </p>
+                <p>
+                    142万+评论
+                </p>
+                <p>
+                    <b>美的京东自营官方旗舰店</b>
+                </p>
+                <p>
+                    <u>自营</u>
+                    <u>放心购</u>
+                    <u>秒杀</u>
+                    <u>限时</u>
+                </p>
+                <p>
+                    <span>对比</span>
+                    <span>关注</span>
+                    <span>查看</span>
+                </p>
+            </li> -->
+        </ul>
+        
+    </div>
+    <div class="noAll">
+            <p>
+                亲没找到改类似商品<br/>
+                <a href="../index.html">返回首页</a>
+            </p>
+    </div>
+    <!-- //对比项 -->
+    <div class="duibi">
+        <div class="duibilan">
+            <div class="xuanxiangS">
+                <span>对比栏</span>
+                <div class="border_xuanxiang">
+                    <i>隐藏</i>
+                </div>
+            </div>
+            <ul id="duibiUl">
+                <li>
+                    <div class="left-img">
+                        <a href="">
+                            <img src="../img/pc_icon_icon-red.png" alt="">
+                        </a>
+                    </div>
+                    <div class="right-text">
+                        <p>
+                            <a href="">五粮液股份公司 1918绵柔 壹玖壹捌 52度500ml浓香型高度白酒 整箱6瓶</a>
+                        </p>
+                        <b>￥2499</b>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //底部 -->
+    <footer>
+            <div class="footer-head">
+                <div class="footer-container">
+                    <ul>
+                        <li>
+                            <span></span>
+                            <i>
+                                品类齐全，轻松购物
+                            </i>
+                        </li>
+                        <li>
+                            <span></span>
+                            <i>
+                                多仓直发，极速配送
+                            </i>
+                        </li>
+                        <li>
+                            <span></span>
+                            <i>
+                                正品行货，精致服务
+                            </i>
+                        </li>
+                        <li>
+                            <span></span>
+                            <i>
+                                天天低价，畅选无忧
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-body">
+                <div class="footer-center">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul>
+                    <!-- 数据渲染 -->
+                    <!-- <li><a href="">关于我们</a>
+                        <span>|</span>
+                    </li> -->
+                </ul>
+                        <p>
+                            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088" target="_blank">京公网安备 11000002000088号</a><span class="copyright_split">|</span><span>京ICP证070359号</span><span class="copyright_split">|</span>
+                            <a href="//img30.360buyimg.com/poprx/jfs/t1/45702/1/7206/3652062/5d4d3f4fE7ea82da4/207332da28ae8230.png" target="_blank">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span class="copyright_split">|</span><span>新出发京零 字第大120007号</span></p>
+                        <p><span>互联网出版许可证编号新出网证(京)字150号</span><span class="copyright_split">|</span>
+                            <a href="//pro.jd.com/mall/active/3bVDLXHdwVmdQksGF8TtS7ocq1NY/index.html" target="_blank">出版物经营许可证</a><span class="copyright_split">|</span>
+                            <a href="//misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a><span class="copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span></p>
+                        <p><span class="copyright_text">Copyright © 2004 - <em id="copyright_year">2019</em>  京东JD.com 版权所有</span><span class="copyright_split">|</span><span>消费者维权热线：4006067733</span>
+                            <a href="//pro.jd.com/mall/active/38PitHBfR7ZopNHRSHnuuWR5AMDL/index.html" target="_blank" class="copyright_license">经营证照</a>
+                            <span class="copyright_split">|</span>
+                            <span>(京)网械平台备字(2018)第00003号</span>
+                            <span class="copyright_split">|</span>
+                            <a href="//storage.jd.com/imgtools/cbdaa22553-dccaf290-d1af-11e8-a840-89f99f5f0056.jpeg" target="_blank" class="mod_business_license">营业执照</a>
+                        </p>
+                        <p><span>京东旗下网站：</span>
+                            <a href="https://www.jdpay.com/" target="_blank">京东钱包</a><span class="copyright_split">|</span>
+                            <a href="https://www.jdcloud.com" target="_blank">京东云</a>
+                        </p>
+            </div>
+        </footer>
+</body>
+</html>

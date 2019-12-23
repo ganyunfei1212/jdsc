@@ -1,0 +1,378 @@
+@charset "utf-8";
+.login-container {
+  width: 100%;
+}
+.login-container .login_bottom {
+  width: 990px;
+  height: 85px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login-container .login_bottom p {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+.login-container .login_bottom ul {
+  margin-top: 20px;
+  display: inline-block;
+  width: auto;
+  overflow: hidden;
+}
+.login-container .login_bottom ul li {
+  list-style: none;
+  float: left;
+}
+.login-container .login_bottom ul li a {
+  font-size: 12px;
+  color: #999;
+  border-right: 1px solid #999;
+  padding: 0 10px;
+}
+.login-container .login_bottom ul li:last-child a {
+  border: 0px;
+}
+.login-container .login_content {
+  width: 100%;
+  height: 475px;
+  background: #e93854;
+  position: relative;
+}
+.login-container .login_content .login_form {
+  width: 346px;
+  height: auto;
+  background: white;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.login-container .login_content .login_form #tishiS {
+  text-align: center;
+  width: 346px;
+  background: #fff8f0;
+  box-sizing: border-box;
+  padding: 10px 0;
+  color: #999;
+  font-size: 12px;
+}
+.login-container .login_content .login_form #tishiS i {
+  vertical-align: middle;
+}
+.login-container .login_content .login_form .login_container_one p:nth-of-type(1) {
+  text-align: center;
+  width: 346px;
+  background: #fff8f0;
+  box-sizing: border-box;
+  padding: 10px 0;
+  color: #999;
+  font-size: 12px;
+}
+.login-container .login_content .login_form .login_container_one p:nth-of-type(1) i {
+  vertical-align: middle;
+}
+.login-container .login_content .login_form .login_container_one p:nth-of-type(2) {
+  margin-top: 10px;
+  text-align: center;
+  width: 346px;
+  box-sizing: border-box;
+  color: #999;
+  font-size: 12px;
+}
+.login-container .login_content .login_form .login_container_one p:nth-of-type(2) a {
+  color: red;
+}
+.login-container .login_content .login_form .login_container_one p:nth-of-type(2) span:nth-of-type(2) {
+  margin-left: 10px;
+}
+.login-container .login_content .login_form .login_container_one .login_show {
+  height: 190px;
+  width: 306px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.login-container .login_content .login_form .login_container_one .login_show img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #f4f4f4;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom {
+  height: 34px;
+  width: 100%;
+  background: darkcyan;
+  padding-top: 4px;
+  border-top: #f4f4f4 solid 1px;
+  background: #fcfcfc;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom div {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_left span:nth-of-type(1) a {
+  border-right: 1px solid #999;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_left span a {
+  padding: 0 10px;
+  font-size: 12px;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_left span a i {
+  font-size: 20px;
+  vertical-align: middle;
+  color: blue;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_right {
+  text-align: right;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_right span a {
+  font-size: 12px;
+  color: #e4393c;
+}
+.login-container .login_content .login_form .login_container_one .login_input_bottom .login_input_right span a i {
+  background: #e93854;
+  border-radius: 50%;
+  color: white;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.login-container .login_content .login_form .login_container_one ul {
+  width: 266px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.login-container .login_content .login_form .login_container_one ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+}
+.login-container .login_content .login_form .login_container_one ul li i {
+  font-size: 25px;
+  vertical-align: middle;
+  border: 1px solid #999;
+  color: #999;
+  border-radius: 50%;
+}
+.login-container .login_content .login_form .login_container_one ul li a {
+  font-size: 12px;
+  color: #999;
+}
+.login-container .login_content .login_form .login_container_two {
+  display: none;
+  text-align: center;
+}
+.login-container .login_content .login_form .login_container_two .wangjimima {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+  padding: 20px;
+}
+.login-container .login_content .login_form .login_container_two button {
+  width: 305px;
+  height: 34px;
+  background: #cb2a2d;
+  outline: none;
+  border: 0;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.login-container .login_content .login_form .login_container_two button a {
+  margin-left: 25px;
+  color: white;
+  letter-spacing: 25px;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom {
+  height: 34px;
+  width: 100%;
+  background: darkcyan;
+  padding-top: 4px;
+  border-top: #f4f4f4 solid 1px;
+  background: #fcfcfc;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom div {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_left span:nth-of-type(1) a {
+  border-right: 1px solid #999;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_left span a {
+  padding: 0 10px;
+  font-size: 12px;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_left span a i {
+  font-size: 20px;
+  vertical-align: middle;
+  color: blue;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_right {
+  text-align: right;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_right span a {
+  font-size: 12px;
+  color: #e4393c;
+}
+.login-container .login_content .login_form .login_container_two .login_input_bottom .login_input_right span a i {
+  background: #e93854;
+  border-radius: 50%;
+  color: white;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(1) {
+  width: 304px;
+  height: 38px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(1) p {
+  box-sizing: border-box;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(2) {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(2) span {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  display: inline-block;
+  width: 39px;
+  height: 38px;
+  line-height: 36px;
+  background: #999;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(2) p:nth-of-type(1) {
+  text-align: center;
+  display: inline-block;
+}
+.login-container .login_content .login_form .login_container_two label:nth-of-type(2) p:nth-of-type(1) input {
+  padding: 10px 0px 10px 50px;
+  width: 304px;
+  height: 38px;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  outline: none;
+}
+.login-container .login_content .login_form .login_container_two .login_from_child {
+  position: relative;
+}
+.login-container .login_content .login_form .login_container_two .login_from_child span {
+  position: absolute;
+  line-height: 36px;
+  text-align: center;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #999;
+  left: 1px;
+}
+.login-container .login_content .login_form .login_container_two .login_from_child p:nth-of-type(1) {
+  display: inline-block;
+  text-align: center;
+}
+.login-container .login_content .login_form .login_container_two .login_from_child p:nth-of-type(1) input {
+  padding: 10px 0px 10px 50px;
+  width: 304px;
+  height: 38px;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  outline: none;
+}
+.login-container .login_content .login_form .login_btn {
+  width: 100%;
+  height: 55px;
+}
+.login-container .login_content .login_form .login_btn button {
+  width: 173px;
+  height: 100%;
+  background: white;
+  border: 0;
+  outline: none;
+  float: left;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 18px;
+}
+.login-container .login_content .login_form .login_btn button a {
+  color: #999;
+}
+.login-container .login_content .login_form .login_btn button:nth-of-type(1) a {
+  display: inline-block;
+  width: 99%;
+  height: 18px;
+  border-right: 1px solid #f4f4f4;
+  color: #e4393c;
+  font-weight: 700;
+}
+.login-container .login_content .login_bg {
+  width: 990px;
+  height: 475px;
+  position: absolute;
+  left: 50%;
+  margin-left: -445px;
+}
+.login-container .login_content .login_bg img {
+  width: 100%;
+  height: 100%;
+}
+.login-container .login_tishi {
+  width: 100%;
+  padding: 10px 0;
+  background: #fff8f0;
+  text-align: center;
+}
+.login-container .login_tishi p {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+.login-container .login-header {
+  width: 990px;
+  height: 80px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.login-container .login-header a:nth-of-type(1) {
+  float: right;
+  margin-top: 48px;
+  color: #999;
+  font-size: 12px;
+}
+.login-container .login-header a:nth-of-type(1) i {
+  font-size: 20px;
+  color: #e93854;
+}
+.login-container .login-header b {
+  margin-top: 20px;
+  float: left;
+  width: 110px;
+  height: 40px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.login-container .login-header h2 {
+  float: left;
+  width: 170px;
+  height: 60px;
+}
+.login-container .login-header h2 a {
+  display: inline-block;
+  height: 60px;
+  width: 170px;
+  margin: 0px !important;
+}
